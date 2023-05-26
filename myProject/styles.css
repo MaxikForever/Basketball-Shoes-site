@@ -50,7 +50,7 @@ header #logo{
     color: var(--text-color);
     font-size: 28px;
     text-decoration: none;
-    text-form: uppercase;
+    text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1.5px;
 
