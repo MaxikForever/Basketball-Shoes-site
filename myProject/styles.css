@@ -50,7 +50,7 @@ header #logo{
     color: var(--text-color);
     font-size: 28px;
     text-decoration: none;
-    text-transform: uppercase;
+    text-form: uppercase;
     font-weight: 600;
     letter-spacing: 1.5px;
 
@@ -295,6 +295,14 @@ nav a:hover {
     margin: 20px;
 }
 
+.footer-column a:hover,
+.footer-column ul li:hover,
+.footer-social-icons a:hover
+{
+  transform: scale(1.20);
+}
+
+
 .footer-column-title {
     font-size: 18px;
     font-weight: bold;
@@ -329,6 +337,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
 }
+
 
 .social-icon {
     color: #fff;
