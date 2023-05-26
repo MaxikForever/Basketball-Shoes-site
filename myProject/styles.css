@@ -211,6 +211,12 @@ nav a:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
+
+  .item:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+  }
+
   .item img {
     width: 300px;
     height: auto;
@@ -273,6 +279,7 @@ nav a:hover {
   .footer {
     grid-area: footer;
     width: 100% !important;
+    box-sizing: border-box !important;
     background-color: #1F1D1C;
     color: #fff;
     padding: 40px;
